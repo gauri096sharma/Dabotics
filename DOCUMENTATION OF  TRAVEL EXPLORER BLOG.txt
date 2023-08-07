@@ -1,0 +1,45 @@
+DOCUMENTATION:  TRAVEL EXPLORER BLOG WEBSITE
+Introduction
+Welcome to the documentation for the Travel Explorer Blog website. This document provides insights into the design choices made for the website and offers instructions for setting up and running the website using basic HTML and CSS. The website is designed to showcase travel destinations and blog posts related to travel experiences.
+
+Design Choices
+Colors
+Background color: #f4f4f4 (light gray) to create a clean and neutral backdrop.
+Header background color: #333 (dark gray) for a bold and contrasting header.
+Text color: #333 (dark gray) for improved readability.
+Banner text color: #ffcc00 (yellow) to draw attention to the banner text.
+Layout
+The website is divided into distinct sections: Header, Banner, Destinations, Blog Posts, and Footer.
+Flexbox is used to create a responsive and flexible layout for destination cards and blog posts.
+Media queries are implemented for screens up to 768 pixels to ensure the website remains readable and visually appealing on smaller devices.
+Instructions
+Setting Up the Website
+Create a new folder named "TravelExplorerWebsite" on your computer.
+
+Inside the "TravelExplorerWebsite" folder, create two files:
+
+index.html (Copy and paste the provided HTML structure)
+styles.css (Copy and paste the provided CSS code)
+Place any image files you want to use (e.g., banner.jpg, paris.jpg, etc.) in the same "TravelExplorerWebsite" folder.
+
+Linking CSS to HTML
+Open the index.html file in a text editor (e.g., Notepad).
+
+Between the <head> and </head> tags, add the following line to link the CSS file:
+
+html
+Copy code
+<link rel="stylesheet" href="styles.css">
+Running the Website
+Double-click the index.html file to open it in your default web browser.
+
+Alternatively, right-click the file and choose "Open with" to select your preferred browser.
+Explore the different sections of the website: Header, Banner, Destinations, Blog Posts, and Footer.
+
+Customization
+To add more destinations or blog posts, follow the structure within the HTML comments and update the relevant content.
+To change colors or styles, modify the corresponding CSS properties in the styles.css file.
+Conclusion
+The Travel Explorer Blog website is designed to showcase travel destinations and related blog posts. By following the instructions provided in this documentation, you can set up and run the website on your computer. 
+
+
