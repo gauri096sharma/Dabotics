@@ -1,58 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Blog Explorer</title>
-    <link rel="stylesheets" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculator</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Travel Explorer</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="banner">
-        <h1>Welcome to Travel Explorer</h1>
-        <p>Your gateway to exciting adventures around the world.</p>
-    </section>
-    <section class="destination">
-        <h2>Popular Destination</h2>
-        <div class="destination-card">
-            <img src="C:\Users\YAKSHESSH SHARMA\Downloads\istockphoto-489556478-1024x1024.jpg" alt="Paris, France">
-            <h3>Paris,France</h3>
-            <p>Experience the beautiful streets of Paris.</p>
-        </div>
-        <div class="destination-card">
-            <img src="C:\Users\YAKSHESSH SHARMA\Downloads\istockphoto-947989088-1024x1024.jpg" alt="Tokyo,Japan">
-            <h3>Tokyo,Japan</h3>
-            <p>Immerse yourself in the vibrant culture of Tokyo.</p>
-        </div>
-    </section>
-    <section class="blog-posts">
-        <h2>Latest Blog Posts</h2>
-        <div class="blog-posts">
-            <img src="C:\Users\YAKSHESSH SHARMA\Downloads\istockphoto-956316084-1024x1024.jpg" alt="Post Title">
-            <h3>Exploring Hidden Gems in Bali</h3>
-            <p>Discover the lesser-known treasures of Bali.</p>
-        </div>
-        <div class="blog-post">
-            <img src="C:\Users\YAKSHESSH SHARMA\Downloads\istockphoto-1014974702-1024x1024.jpg" alt="Post Title">
-            <h3>Hiking the Inca Trail to Machu Picchu</h3>
-            <p>Embark on a breathtaking journey through history.</p>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2023 Travel Explorer. All rights reserved</p>
-    </footer>
- 
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <button class="clear" id="clear">C</button>
+    <button class="delete" id="delete">DEL</button>
+    <button class="number" data-value="7">7</button>
+    <button class="number" data-value="8">8</button>
+    <button class="number" data-value="9">9</button>
+    <button class="operator" data-value="+">+</button>
+    <button class="number" data-value="4">4</button>
+    <button class="number" data-value="5">5</button>
+    <button class="number" data-value="6">6</button>
+    <button class="operator" data-value="-">-</button>
+    <button class="number" data-value="1">1</button>
+    <button class="number" data-value="2">2</button>
+    <button class="number" data-value="3">3</button>
+    <button class="operator" data-value="*">*</button>
+    <button class="number" data-value="0">0</button>
+    <button class="decimal" data-value=".">.</button>
+    <button class="equals" id="equals">=</button>
+    <button class="operator" data-value="/">/</button>
+    <button class="scientific" data-value="sqrt">√</button>
+    <button class="scientific" data-value="exp">exp</button>
+    <button class="scientific" data-value="sin">sin</button>
+    <button class="scientific" data-value="cos">cos</button>
+    <button class="scientific" data-value="tan">tan</button>
+    <button class="scientific" data-value="log">log</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
