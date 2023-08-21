@@ -1,0 +1,45 @@
+Documentation of QR Code Generator:
+HTML Structure:
+
+<!DOCTYPE html>: Declares the document type and version of HTML used.
+
+<html lang="en">: Specifies the language of the document's content.
+
+<head>: Contains meta-information and external resource links.
+
+<meta charset="UTF-8">: Sets the character encoding to UTF-8.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Defines the viewport settings for responsive design.
+<title>QR Code Generator</title>: Sets the title of the webpage displayed in the browser's title bar.
+<style>: Contains CSS styles for styling the webpage.
+
+Styles define the appearance of the body, content container, input field, and QR code image.
+<body>: Contains the visible content of the webpage.
+
+<div id="container">: This div serves as the main content container.
+<h1>QR Code Generator</h1>: Displays the title "QR Code Generator."
+<input type="text" id="inputField" placeholder="Enter your message or URL">: An input field where users can enter their message or URL.
+<button onclick="generateQRCode()">Generate QR Code</button>: A button that, when clicked, triggers the generateQRCode() JavaScript function.
+<div id="qrCode"></div>: A placeholder div where the generated QR code image will be displayed.
+<script>: Contains JavaScript code for generating the QR code.
+
+The generateQRCode function gets the user's input value from the input field, clears any existing content in the "qrCode" div, and generates a new QR code using the QRCode.js library.
+The QRCode.js library is loaded from an external CDN (https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js).
+JavaScript Functionality:
+
+The generateQRCode() function performs the following steps:
+
+It retrieves the user's input value from the input field with the id "inputField."
+
+It gets a reference to the "qrCode" div element where the QR code will be displayed.
+
+It clears any existing content inside the "qrCode" div.
+
+It creates a new instance of the QRCode.js library, passing in the "qrCode" div as the container for the QR code image.
+
+The QR code is generated based on the user's input value, and the QR code's width and height are set to 200 pixels each.
+
+
+
+
+
+

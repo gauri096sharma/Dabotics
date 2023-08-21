@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Code Generator</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  #inputField {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+  }
+  #qrCode {
+    max-width: 100%;
+  }
+</style>
+</head>
+<body>
+<div id="container">
+  <h1>QR Code Generator</h1>
+  <input type="text" id="inputField" placeholder="Enter your message or URL">
+  <button onclick="generateQRCode()">Generate QR Code</button>
+  <div id="qrCode"></div>
+</div>
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script>
+  function generateQRCode() {
+    var inputValue = document.getElementById("inputField").value;
+    var qrCodeDiv = document.getElementById("qrCode");
+    qrCodeDiv.innerHTML = ""; // Clear previous QR code if any
+    var qrcode = new QRCode(qrCodeDiv, {
+      text: inputValue,
+      width: 200,
+      height: 200,
+    });
+  }
+</script>
+</body>
+</html>
