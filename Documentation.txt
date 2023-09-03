@@ -1,0 +1,65 @@
+HTML Documentation:
+
+This is the HTML structure of a webpage that appears to be a clone of Amazon's website layout.
+
+Doctype Declaration: Specifies that the document is an HTML5 document.
+<html> Element: The root element of the HTML document.
+<head> Element: Contains metadata about the webpage, including title and external resources like stylesheets and fonts.
+<body> Element: Contains the visible content of the webpage.
+The content is organized into various sections:
+
+Header Section (<header>):
+
+Contains the navigation bar and banner.
+Includes the logo, delivery information, search bar, sign-in, returns, and cart.
+Utilizes flexbox for layout.
+Banner Section (<div class="banner">):
+
+Contains links and a "Shop deals in Electronics" link.
+Styled with a background color, padding, and white text.
+Homepage Content Section (<div class="HOME PAGE">):
+
+Contains images and links related to products.
+Organized using grid layout.
+Hero Section (<section class="hero-section">):
+
+Represents a hero section with a background image.
+The image covers the section with a centered position.
+Shop Section (<section class="shop-section">):
+
+Represents a section for shopping links.
+Styled with a background color and padding.
+Utilizes flexbox for layout.
+Footer Section (<footer>):
+
+Contains various footer items, each with a list of links.
+Utilizes flexbox for layout.
+CSS Documentation:
+
+The provided CSS code is responsible for styling the HTML structure. Here's an explanation of the different CSS rules:
+
+General Styling (*, html, a):
+
+Sets global styles such as font family, margins, paddings, and box-sizing.
+Header Styling (header, .navbar, .nav-logo, .address, .nav-search, .select-search, .search-input, .search-icon, .sign-in, .returns, .cart):
+
+Styles the navigation bar elements, including logo, delivery info, search bar, user sign-in, returns, and cart.
+Uses flexbox for layout.
+Applies background colors, colors, and cursor styles.
+Banner Styling (.banner, .banner-content, .panel, .links, .deals):
+
+Styles the banner section with background color and text color.
+Applies layout and spacing to navigation links and deals.
+Hero Section Styling (.hero-section):
+
+Styles the hero section with a background image.
+Shop Section Styling (.shop-section, .shop-images, .shop-link):
+
+Styles the shop section with background color and padding.
+Organizes product links using grid layout.
+Applies styles to product link containers and images.
+Footer Styling (.footer-title, .footer-items, .footer-items h3, .footer-items ul, .footer-items li a):
+
+Styles the footer section with background colors and text colors.
+Organizes footer items using flexbox.
+Styles header texts and link lists in the footer.
